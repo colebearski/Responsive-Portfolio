@@ -1,0 +1,229 @@
+/**** Navigation Bar ****/
+
+.navbar#leader {
+	background-color: #fff;
+	border-bottom: solid 2px #ccc;
+}
+
+.navbar-brand#chief {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 135%;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+li a {
+	display: block;
+	color: #777;
+	text-align: center;
+}
+
+li a:hover {
+	background-color: #e7e7e7;
+}
+
+/**** Background Image ****/
+
+body, html {
+	height: 100%;
+	background-image: url("http://allswalls.com/images/2014-kawasaki-kx450f-motocross-moto-dirtbike-wallpaper-3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/**** About Me Section ****/
+
+.about {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;
+}
+
+.about h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+.about img {
+	margin-left: 20%;
+	margin-bottom: 15px;
+	width: 60%;
+	height: 60%;
+}
+
+/**** Portfolio Gallery ****/
+
+.project {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;
+}
+
+.project h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.gallery {
+	margin: 15px;
+}
+
+/**** Contact Form ****/
+
+.placeholder {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;	
+}
+
+.placeholder h1 {
+	border-bottom: solid 3px #ddd;
+}
+
+input[type=submit]:hover {
+	background-color: #4aaaa5;
+}
+
+
+/**** Connect with me Section ****/
+
+.sidebar {
+	background-color: #fff;
+	border: 2px solid #ddd;
+	padding: 15px;
+	margin-top: 18px;
+}
+
+.sidebar h2 {
+	text-align: left;
+	border-bottom: solid 3px #ddd;
+}
+
+#social #holder ul li {
+	display: inline-block;
+	padding: 0px;
+
+}
+
+/**** Footer Section ****/
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #666;
+	text-align: center;
+	color: white;
+	border-top: solid 2px #4aaaa5;
+	padding-top: 15px;	
+}
+
+              /**** Media Queries ****/
+
+/** Desktop **/
+
+@media (min-width: 980px) {
+
+/** Connect With me **/
+
+	.sidebar {
+		margin-top: 0px;
+	}
+
+	.sidebar h2 {
+		text-align: center;
+	}
+
+	#social #holder ul li {
+		display: inline-block;
+		padding: 18px;
+	}
+
+	.about img {
+		float: left;
+		margin-right: 10px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: 180px;
+		height: 180px;
+	}
+
+/** Portfolio Gallery **/
+
+	.project {
+		background-color: #fff;
+		border: 2px solid #ddd;
+		padding: 15px;
+		float: left;
+		clear: both;
+	}
+
+	.gallery img {
+		width: 80%;
+		height: 80%;
+	}
+
+}
+
+/** Tablet **/
+
+@media (min-width: 768px) {
+
+/** About Me Section **/
+
+	.about img {
+		float: left;
+		margin-right: 10px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: 34%;
+		height: 34%;
+	}
+
+/** Portfolio Gallery **/
+
+	.gallery img {
+		width: 50%;
+		height: 50%;
+	}
+
+}
+
+/** Mobile **/
+
+/** Bootstrap is built mobile first **/
+
+@media (min-width: 640px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
